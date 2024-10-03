@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CABEÇALHO */
+
+header{
+    height: 100px;
+    background-color: #FFF7EC;
+   align-items: center;
+    display: flex;
+}
+
+.logo{
+    height: 80px;
+    margin-left: 50px;
+} 
+
+.loja{
+  margin-left: 1280px;
+  font-weight: bolder;
+  color: black;
+}
+
+/* BIG IMAGEM */
+.image{
+    background-image: url(img/Design\ sem\ nome.png);
+    height:793px ;
+}
+/* PRIMEIRO TEXT */
+
+.text{
+    height: 530px;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 50px
+}
+
+h2{
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+
+p{
+    font-size: 24px;
+}
+
+div{
+    background-color: #FFF7EC;
+}
+
+/* PAPEL RASGADO */
+
+.cabine{
+    background-color: #1B634B;
+}
+
+.rasgado{
+height: 445.2px;
+}
+
+.polaroide{
+    background-color: #1B634B;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.polaroide img{
+    margin: 0px 40px 40px 40px;
+}
+
+/* TEXTO 02 */
+
+.text02{
+    height: 530px;
+    justify-content: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 100px;
+    /* background-color: #FFF7EC; */
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #1B634B;
+    height: 100px;
+    align-items: center;
+    display: flex;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    margin-left: 1400px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
