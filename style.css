@@ -26,10 +26,19 @@ header{
 }
 
 /* BIG IMAGEM */
+
 .image{
-    background-image: url(img/Design\ sem\ nome.png);
-    height:793px ;
+    background-image: url(img/banner.png);
+    height:1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+
+
+
 /* PRIMEIRO TEXT */
 
 .text{
@@ -107,6 +116,7 @@ a{
     color: white;
     font-weight: bold;
     margin-left: 1400px;
+    text-decoration: none;
 }
 
 html {
